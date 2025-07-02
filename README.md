@@ -1,4 +1,4 @@
-# 🔧 Self-Hosted n8n Made Easy (with Ngrok + Docker)
+# Self-Hosted n8n Made Easy (with Ngrok + Docker)
 
 This repo helps you **instantly run your own local n8n automation server** with:
 
@@ -6,7 +6,7 @@ This repo helps you **instantly run your own local n8n automation server** with:
 - Ngrok (for HTTPS webhook access)
 - Just two scripts: `run.sh` and `stop.sh`
 
-Perfect for personal workflows, Telegram bots, Notion integrations, or just exploring automation — without dealing with complicated setups or domains.
+Perfect for personal workflows, Telegram bots, Notion integrations, or just exploring automation without dealing with complicated setups or domains.
 
 ---
 
@@ -48,3 +48,11 @@ Make sure you have:
 - Fetches the HTTPS URL
 - Writes it into .env
 - Starts n8n via Docker
+
+---
+
+### Quit:
+
+```bash
+./stop.sh
+```
